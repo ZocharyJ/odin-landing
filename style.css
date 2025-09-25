@@ -23,13 +23,11 @@ body {
 .hero {
     display: flex;
     margin: 50px 100px;
-    flex: 1;
-    flex-direction: row;
     align-items: center;
 }
 
 #hero-text {
-    margin-right: 25%;
+    margin-right: 15%;
 }
 
 h2{
