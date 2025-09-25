@@ -97,7 +97,7 @@ button {
     display: flex;
     background-color: #E5E7EB;
     font-style: italic;
-    padding: 10%;
+    padding: 5%;
 }
 
 .quote > * {
