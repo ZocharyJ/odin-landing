@@ -140,3 +140,10 @@ button {
     border-color: white;
     border-style: solid;
 }
+
+.footer {
+    padding: 1.5em;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
