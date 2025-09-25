@@ -9,7 +9,6 @@
 }
 
 .header > * {
-    justify-content: space-between;
     display: flex;
     margin: 10px;
     flex: 1 1 0;
