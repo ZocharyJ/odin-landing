@@ -1,14 +1,13 @@
 * {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;
-    align-items: center;
 }
 
 .header {
     display: flex;
     color: #F9FAF8;
     margin: 10px 100px;
+    align-items: center;
 }
 
 .header > * {
@@ -25,6 +24,7 @@ body {
     margin: 50px 100px;
     flex: 1;
     flex-direction: row;
+    align-items: center;
 }
 
 #hero-text {
@@ -36,7 +36,7 @@ h2{
     font-size: 48px;
 }
 
-.hero button {
+button {
     color: #E5E7EB;
     font-weight: bold;
     font-size: 18px;
@@ -62,7 +62,7 @@ h2{
     background-color: white;
 }
 
-h3 {
+.content h3 {
     color: #1F2937;
     font-weight: 900;
     font-size: 36px;
@@ -76,6 +76,7 @@ h3 {
     align-items: self-start;
     gap: 2rem;
     height: 25em;
+    justify-content: center;
 }
 
 .content-box > * {
@@ -90,5 +91,52 @@ h3 {
     border-color: #3882f6;
     width: 10rem;
     height: 10rem;
-    
+}
+
+.quote {
+    display: flex;
+    background-color: #E5E7EB;
+    font-style: italic;
+    padding: 10%;
+}
+
+.quote > * {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.quote #author {
+    text-align: end;
+    font-weight: bold;
+}
+
+.action {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.banner {
+    margin: 5em;
+    padding: 1.5em;
+    display: flex;
+    color: white;
+    background-color: #3882f6;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 10em;
+
+}
+
+.banner-text h3 {
+    text-align: left;
+    color: white;
+}
+
+.banner button {
+    border-color: white;
+    border-style: solid;
 }
