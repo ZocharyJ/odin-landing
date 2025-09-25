@@ -1,8 +1,8 @@
 * {
-      font-family: "Roboto", sans-serif;
-      font-optical-sizing: auto;
-      font-style: normal;
-      align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    align-items: center;
 }
 
 .header {
@@ -18,7 +18,6 @@
 
 body {
     background-color: #1F2937;
-    margin: 0 10%;
 }
 
 .hero {
@@ -32,7 +31,7 @@ body {
     margin-right: 25%;
 }
 
-.hero h2{
+h2{
     color: #F9FAF8;
     font-size: 48px;
 }
@@ -57,4 +56,39 @@ body {
     padding: 100px;
     width: 100%;
     height: 100%;
+}
+
+.content {
+    background-color: white;
+}
+
+h3 {
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.content-box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.content-box > * {
+    max-width: 150px;
+    max-height: 150px;
+    padding: 1em;
+}
+
+.box {
+    border-style: solid;
+    border-radius: 10%;
+    border-color: #3882f6;
+    width: 10rem;
+    height: 10rem;
+    
 }
