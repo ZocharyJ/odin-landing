@@ -18,6 +18,7 @@
 
 body {
     background-color: #1F2937;
+    margin: 0 10%;
 }
 
 .hero {
@@ -25,9 +26,6 @@ body {
     margin: 50px 100px;
     flex: 1;
     flex-direction: row;
-    justify-content: center;
-    align-content: space-between;
-    width: 80%;
 }
 
 #hero-text {
