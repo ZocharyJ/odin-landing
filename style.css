@@ -20,6 +20,15 @@ body {
     background-color: #1F2937;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3882f6;
+}
+
 .hero {
     display: flex;
     margin: 50px 100px;
@@ -43,6 +52,12 @@ button {
     background-color: #3882f6;
     border-radius: 10px;
     border-style: none;
+    
+}
+
+button:hover {
+    color: #3882f6;
+    background-color: #F9FAF8;
 }
 
 .hero p {
